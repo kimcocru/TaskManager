@@ -49,6 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
         backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+        centerTitle: true,
         title: const Text('Mis Tareas'),
         actions: [
           IconButton(
