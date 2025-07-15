@@ -98,8 +98,7 @@ class _TaskFormScreenState extends State<TaskFormScreen> {
                     : null,
               ),
               const SizedBox(height: 16),
-
-              // Description
+              
               TextFormField(
                 controller: _descriptionController,
                 decoration: const InputDecoration(
@@ -110,7 +109,6 @@ class _TaskFormScreenState extends State<TaskFormScreen> {
               ),
               const SizedBox(height: 16),
 
-              // Deadline Picker
               Row(
                 children: [
                   Expanded(
@@ -129,7 +127,6 @@ class _TaskFormScreenState extends State<TaskFormScreen> {
               ),
               const SizedBox(height: 24),
 
-              // Save Button
               ElevatedButton(
                 onPressed: _saveTask,
                 style: ElevatedButton.styleFrom(

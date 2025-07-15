@@ -36,7 +36,6 @@ class TaskTile extends StatelessWidget {
           Expanded(
             child: InkWell(
               onTap: () {
-                // Navigate to edit form
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (_) => TaskFormScreen(task: task)),
@@ -81,7 +80,6 @@ class TaskTile extends StatelessWidget {
             ),
           ),
 
-          // Delete button
           IconButton(
             icon: const Icon(Icons.delete, color: Colors.redAccent),
             onPressed: () async {
